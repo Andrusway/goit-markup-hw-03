@@ -30,6 +30,10 @@ img{
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+        padding-top: 24px;
+    padding-bottom: 24px;
+        padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-navigation {
@@ -51,8 +55,7 @@ img{
 
 .header-container{
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .logo-span{
@@ -65,11 +68,13 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+nav{
+    text-align: center;
+}
 
 .header-navigation-list {
     list-style-type: none;
     display: flex;
-    text-align: center;
     gap: 40px;
 }
 
@@ -162,9 +167,17 @@ margin-left: auto;
     padding-bottom: 120px;
 }
 
-.section-features-name {
-   display: none;
-   
+.visually-hidden {
+   position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    white-space: nowrap;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    border: 0;
 }
 
 .features-list{

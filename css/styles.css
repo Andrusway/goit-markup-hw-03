@@ -30,10 +30,7 @@ img{
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-        padding-top: 24px;
-    padding-bottom: 24px;
-        padding-left: 15px;
-    padding-right: 15px;
+        
 }
 
 .header-navigation {
@@ -85,6 +82,8 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
+    display: block;
 }
 
 .header-navigation-link:hover, .header-navigation-link:focus{
